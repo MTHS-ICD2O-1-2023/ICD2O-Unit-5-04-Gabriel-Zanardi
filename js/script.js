@@ -9,7 +9,7 @@
 function myButtonClicked() {
 
   //input
-  const day = document.getElementById("final-answer").innerHTML
+  const dayOfWeek = document.getElementById("final-answer").innerHTML
 
   // Output
   document.getElementById("final-answer").innerHTML =
