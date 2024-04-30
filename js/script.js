@@ -12,7 +12,7 @@ function myButtonClicked() {
   const dayOfWeek = document.getElementById("day-of-week").innerHTML
   const personAge = document.getElementById("person-age").innerHTML
   //process
-  if ((day == "Tuesday" || day == "Thursday") || age >= 12 && age <= 21) {
+  if ((dayOfWeek == "Tuesday" || dayOfWeek == "Thursday") || personAge >= 12 && personAge <= 21) {
     // Output
     document.getElementById("final-answer").innerHTML =
       "You have a discount at your admission"
