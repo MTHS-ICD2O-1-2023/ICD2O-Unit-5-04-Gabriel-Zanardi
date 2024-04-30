@@ -9,9 +9,15 @@
 function myButtonClicked() {
 
   //input
-  const dayOfWeek = document.getElementById("final-answer").innerHTML
-
-  // Output
-  document.getElementById("final-answer").innerHTML =
-    "Your cost with no tax is: CAD$" + noTaxCost;
+  const dayOfWeek = document.getElementById("day-of-week").innerHTML
+  const personAge = document.getElementById("person-age").innerHTML
+  //process
+  if ((day == "Tuesday" || day == "Thursday") || age >= 12 && age <= 21) {
+    // Output
+    document.getElementById("final-answer").innerHTML =
+      "You have a discount at your admission"
+  } else {
+    document.getElementById("final-answer").innerHTML =
+      "You have to pay full admission"
+  }
 }
